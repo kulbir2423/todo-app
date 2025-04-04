@@ -6,6 +6,242 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Kulbir</h1>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <title>Todo</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Left Side -->
+      <div class="left-section">
+        <!-- Start -->
+        <div class="nav">
+          <h2>Menu</h2>
+          <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <!-- Search -->
+        <div class="search">
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <h4 class="srch">Search</h4>
+        </div>
+        <!-- Tasks -->
+        <h3>TASKS</h3>
+
+        <div class="tasks">
+          <!-- Upcoming -->
+          <div class="upcoming">
+            <div class="upcoming-icon">
+              <i class="fa-solid fa-forward"></i>
+            </div>
+            <h4>Upcoming</h4>
+            <h6>12</h6>
+          </div>
+          <!-- Calender Today -->
+          <div class="calender-today">
+            <div class="calender-today-icon">
+              <i class="fa-solid fa-calendar"></i>
+            </div>
+            <h4>Today</h4>
+            <h6>5</h6>
+          </div>
+          <!-- Calender -->
+          <div class="calender">
+            <div class="calender-icon">
+              <i class="fa-solid fa-calendar-days"></i>
+            </div>
+            <h4>Calender</h4>
+          </div>
+          <!-- Sticky -->
+          <div class="sticky">
+            <div class="sticky-icon">
+              <i class="fa-solid fa-note-sticky"></i>
+            </div>
+            <h4>Sticky Wall</h4>
+          </div>
+        </div>
+
+        <!-- LISTS -->
+        <h3>LISTS</h3>
+        <div class="lists">
+          <!-- PERSONAL -->
+          <div class="personal">
+            <div class="square-block"></div>
+            <h4>Personal</h4>
+            <h6>3</h6>
+          </div>
+          <!-- WORK -->
+          <div class="work">
+            <div class="square-block-work"></div>
+            <h4>Work</h4>
+            <h6>6</h6>
+          </div>
+          <!-- LIST -->
+          <div class="list">
+            <div class="square-block-list"></div>
+            <h4>List 1</h4>
+            <h6>3</h6>
+          </div>
+          <!-- Add New List -->
+          <div class="addlist">
+            <div class="new-list"><i class="fa-solid fa-plus"></i></div>
+            <h4>Add New List</h4>
+          </div>
+        </div>
+        <!-- LISTS -->
+        <h3>TAGS</h3>
+        <div class="tags">
+          <button class="tag1">Tag 1</button>
+          <button class="tag2">Tag 2</button>
+          <button class="addtag">+ Add Tag</button>
+        </div>
+        <div class="negative_space"></div>
+        <div class="close">
+          <div class="settings">
+            <div class="settings-icon"><i class="fa-solid fa-sliders"></i></div>
+            <h4>Settings</h4>
+          </div>
+          <div class="sign-out">
+            <div class="sign-out-icon">
+              <i class="fa-solid fa-right-from-bracket"></i>
+            </div>
+            <h4>Sign out</h4>
+          </div>
+        </div>
+        <!-- End of Left side   -->
+      </div>
+      <!-- Center Section -->
+      <div class="center-section">
+        <div class="wrap">
+          <h1>Today</h1>
+          <h1>5</h1>
+        </div>
+        <div class="newtask">
+          <div class="new-list"><i class="fa-solid fa-plus"></i></div>
+          <h4>Add New Task</h4>
+        </div>
+        <div class="researchideas">
+          <div class="checkbox"><input type="checkbox" /></div>
+          <h4>Research content ideas</h4>
+          <div class="arrow"><i class="fa-solid fa-greater-than"></i></div>
+        </div>
+        <div class="database">
+          <div class="checkbox"><input type="checkbox" /></div>
+          <h4>Create a database of guest authors</h4>
+          <div class="arrow"><i class="fa-solid fa-greater-than"></i></div>
+        </div>
+        <div class="renew-license">
+          <div class="checkbox"><input type="checkbox" /></div>
+          <h4>Renew driver's license</h4>
+          <div class="arrow"><i class="fa-solid fa-greater-than"></i></div>
+        </div>
+        <div class="details">
+          <div class="date">
+            <span class="calender-date"
+              ><i class="fa-solid fa-calendar-xmark"></i
+            ></span>
+            <span class="data">22-03-22</span>
+          </div>
+          <div class="subtasks">
+            <span class="data">1</span>
+            <span class="data">Subtasks</span>
+          </div>
+          <div class="personal-current">
+            <span class="square-block-current data"></span>
+            <span class="data">Personal</span>
+          </div>
+        </div>
+        <div class="consul-accountant">
+          <div class="checkbox"><input type="checkbox" /></div>
+          <h4>Consult Accountant</h4>
+          <div class="arrow"><i class="fa-solid fa-greater-than"></i></div>
+        </div>
+        <div class="consult-details">
+          <div class="list-current">
+            <span class="square-block-current-list data"></span>
+            <span class="data">List</span>
+          </div>
+          <div class="subtasks">
+            <span class="data">3</span>
+            <span class="data">Subtasks</span>
+          </div>
+        </div>
+        <div class="business-card">
+          <div class="checkbox"><input type="checkbox" /></div>
+          <h4>Print business card</h4>
+          <div class="arrow"><i class="fa-solid fa-greater-than"></i></div>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="right-section">
+        <h2>Task:</h2>
+        <div class="right-info">
+          <h4 class="license-info">Renew driver's license</h4>
+          <h4 class="description">Description</h4>
+        </div>
+        <div class="right-personal">
+          <span>List</span>
+          <span class="personal-right">
+            <span>Personal</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </span>
+        </div>
+        <div class="right-due-date">
+          <span>Due date</span>
+          <span class="personal-date">
+            <span>11-03-22</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </span>
+        </div>
+        <div class="right-tags">
+          <span>Tags</span>
+          <span class="personal-date">
+            <span class="tag1">Tag 1</span>
+          </span>
+          <span class="add-tag">+ Add Tag</span>
+        </div>
+        <h2 class="right-subtasks">Subtasks:</h2>
+        <span class="new-task">+ Add New Subtask</span>
+
+        <div class="main-subtask">
+          <span class="checkbox"><input type="checkbox" /></span>
+          <span class="new-subtask"> Subtask</span>
+        </div>
+        <div class="empty-space"></div>
+        <div class="bottom-buttons">
+          <div class="delete-task"><button>Delete Task</button></div>
+          <div class="save-changes"><button>Save changes</button></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
 </body>
 </html>

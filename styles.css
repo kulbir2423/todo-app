@@ -1,0 +1,284 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr;
+    font-family: Montserrat;
+    color: #484848;
+  }
+  h1 {
+      color:black;
+  }
+  .nav {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+  }
+  .hamburger {
+    align-self: center;
+  }
+  .search {
+    display: grid;
+    grid-template-columns: 1.25fr 8fr;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgba(0, 0, 0, 0.5);
+  }
+  .search-icon, .upcoming-icon, .calender-today-icon, .calender-icon, .sticky-icon, .new-list, .settings-icon, .sign-out-icon
+  .checkbox , .arrow
+  {
+      align-self: center;
+  }
+  .left-section, .right-Section, .center-section {
+      padding-left: 25px;
+      padding-top: 15px;
+      padding-top: 15px;
+  }
+  h3 {
+      font-size: 14px;
+  }
+  .upcoming, .calender-today, .calender, .sticky , .personal, .work, .list, .addlist, .settings, .sign-out {
+      display: grid;
+      grid-template-columns: 1fr 7fr 1fr;
+  }
+  .tasks , .lists,.close {
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .wrap {
+      display: grid;
+      grid-template-columns: 4fr 7fr;
+  }
+  .left-section, .right-section {
+      background-color:rgba(0, 0, 0, 0.025);
+      padding-left: 25px;
+      padding-top: 15px;
+      padding-top: 15px;
+  }
+  .square-block, .square-block-work, .square-block-list {
+      width:20px;
+      height:20px;
+      background-color: #f96a6a;
+      align-self: center;
+      border-radius: 5px;
+  }
+  .square-block-work {
+      background-color: #6bd7e7;
+  }
+  .square-block-list {
+      background-color: #fadb33;
+  }
+  .tags {
+      display: grid;
+      grid-template-columns: .75fr .75fr 1.1fr .5fr;
+  }
+  .tag1 {
+      background-color: #6bd7e7;
+      border-radius: 10px;
+  }
+  .tag2 {
+      background-color: #fdd7de;
+      border-radius: 10px;
+  }
+  .addtag {
+      background-color:#eaeaea;
+      border-radius: 10px;
+  }
+  .tags button {
+      margin-left: 5px;
+      margin-right: 5px;
+      border: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      font-family: Montserrat;
+  }
+  .negative_space {
+      height: 200px;
+  }
+  .newtask, .researchideas, .database, .renew-license, .consul-accountant {
+      display: grid;
+      grid-template-columns: .5fr 7fr 1fr;
+      border-top: 1px solid #eaeaea;
+      /* border-bottom: 1px solid black; */
+  }
+  .checkbox, .calender,.sign-out-icon {
+      align-self: center;
+  }
+  
+  .data{
+      font-size: 11px;
+      font-weight:600;
+      padding-left: 6px;
+  }
+  .square-block-current {
+      background-color: #f96a6a;
+      align-self: center;
+      padding-left: 15px;
+      border-radius: 5px;
+  }
+  .details {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 2.25fr;
+      padding-left: 40px;
+  }
+  .consul-accountant {
+      border: none;
+      margin-top: 10px;
+  }
+  .square-block-current-list {
+      background-color: #fadb33;
+      padding-left: 15px;
+      border-radius: 5px;
+  }
+  .consult-details {
+      display: grid;
+      grid-template-columns: 1fr 1fr 5fr;
+      padding-left: 40px;
+  }
+  .business-card {
+      display: grid;
+      grid-template-columns: .5fr 7fr 1fr;
+      margin-top: 10px;
+  }
+  .newtask {
+      color: rgba(0, 0, 0, 0.4);
+  }
+  .fas {
+      color: #484848;
+  }
+  .calender-today:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+      padding-left:15px;
+      border-radius: 10px;
+  }
+  button {
+      color:#484848;
+  }
+  .wrapper i {
+      color:rgba(0, 0, 0, 0.4);
+  }
+  .right-info {
+      max-width:95%;
+      margin-left: auto;
+      margin-right: auto;
+      color: rgba(0, 0, 0, 0.5);
+  }
+  .description {
+      margin-top: 50px;
+      margin-bottom: 80px;
+  }
+  .license-info {
+      margin-top: 40px;
+  }
+  .down-arrow {
+      align-self: center;
+  }
+  .right-date {
+      display: grid;
+      grid-template-columns: 1.5fr 1.5fr 2.5fr;
+  }
+  .down-arrow {
+      padding-left: 20px;
+  }
+  .right-personal span {
+      font-size:13px;
+      font-weight:600;
+      font-size: #484848;
+  }
+  .personal-right {
+      padding-left: 100px;
+  }
+  .right-due-date span{
+      font-size:13px;
+      font-weight:600;
+      font-size: #484848;
+  }
+  .personal-date {
+      padding-left: 63px;
+  }
+  .right-due-date {
+      margin-top: 20px;
+  }
+  .right-tags {
+      font-size:13px;
+      font-weight:600;
+      font-size: #484848;
+      margin-top: 20px;
+  }
+  .tag1, .add-tag {
+      background-color: #6bd7e7;
+      padding-top:10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right:15px;
+  }
+  .add-tag {
+      border-radius: 10px;
+      background-color: #eaeaea;
+  }
+  .right-tags .personal-date {
+  padding-left: 90px;
+  }
+  .personal-right i {
+      padding-left: 20px;
+  }
+  .personal-date i {
+      padding-left: 20px;
+  }
+  .right-subtasks {
+      margin-top: 60px;
+  }
+  .new-task {
+      padding-left: 35px;
+      color: rgba(0, 0, 0, 0.5);
+      font-weight: 500;
+  }
+  .main-subtask {
+      margin-top: 25px;
+      font-weight: 500;
+      padding-left: 30px;
+  }
+  .new-subtask {
+      padding-left: 10px;
+  }
+  .empty-space {
+      margin-bottom: 15rem;
+  }
+  .bottom-buttons {
+      display: grid;
+      grid-template-columns: 1fr 1fr .25fr;
+  }
+  .bottom-buttons button {
+      width:100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+  }
+  .delete-task{
+      margin-left: 20px;
+  }
+  .delete-task button {
+      background-color: white;
+      color:#484848;
+      font-weight: 600;
+      font-family: Montserrat;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      font-size: 15px;
+  }
+  .save-changes button {
+      font-size: 15px;
+      font-weight: 600;
+      font-family: Montserrat;
+      color: rgba(0, 0, 0, 0.75);
+      background-color: #fadb33;
+      border: none;
+      border-radius: 10px;
+  }
+  .save-changes {
+      margin-left: 20px;
+  }
+  
